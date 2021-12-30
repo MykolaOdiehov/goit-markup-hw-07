@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,GAAG",
+    "sources": [
+        "../../goit-markup-hw-07/sass/units/main.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

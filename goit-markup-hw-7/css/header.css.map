@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CACP;EAMI,MAAM,EAAE,iBAAiB;CAC5B;;AARD,AAGI,OAHG,GAGD,GAAG,CAAA;EACD,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACtB",
+    "sources": [
+        "../../goit-markup-hw-07/sass/components/header.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}
