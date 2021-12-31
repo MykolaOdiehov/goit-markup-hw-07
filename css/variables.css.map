@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../goit-markup-hw-07/sass/units/variables.scss"
+        "../sass/units/variables.scss"
     ],
     "names": [],
     "file": "variables.css"

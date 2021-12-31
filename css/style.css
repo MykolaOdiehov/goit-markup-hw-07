@@ -31,22 +31,22 @@ align-items: center;
 
 margin-left: 90px;
 }
-.tell-for-buy{
+.menu-contacts{
 display: flex;
 flex-direction: row;
 margin-left: auto;
 }
 
-.list-in-header{
+.menu__item-contact{
 display: inline ;
 flex-direction: column;
 
 height: 16px;
 }
-.list-in-header:hover{
+.menu__item-contact:hover{
 fill: #2196f3;
 }
-.list-in-header:hover > a{
+.menu__item-contact:hover > a{
 color:#2196f3;
 }
 .container {
@@ -55,15 +55,15 @@ margin: 0 auto;
 padding: 0 15px;
 }
 
-.row {
+.team__menu {
 display: flex;
 
 }
-.row > li{
+.team__menu > li{
 margin-left: 30px;
 
 }
-.tell-for-buyer {
+.menu__contact {
 font-family: Roboto;
 font-style: normal;
 
@@ -81,11 +81,11 @@ align-items: center;
 
 
 
-.link-for-navigation:focus {
+.menu__link:focus {
 color: #2196f3;
 text-decoration: none;
 }
-.link-for-navigation {
+.menu__link {
 position: relative;
 text-decoration: none;
 color: #212121;
@@ -94,16 +94,16 @@ margin-right: 50px;
 font-weight: 500;
 
 }
-.link-for-navigation:hover  {
+.menu__link:hover  {
 color: #2196f3;
 text-decoration: none;
 
 }
-.link-for-navigation:hover::after{
+.menu__link:hover::after{
 transform: scaleX(1);
 
 }
-.link-for-navigation::after{
+.menu__link::after{
 content: '';
 
 position: absolute;
@@ -121,12 +121,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 
-.text-color {
+.header__text {
 color: #2196f3;
 text-decoration: none;
 }
 
-.button-for-buy {
+.logo__button {
 background: #2196f3;
 cursor: pointer;
 border-radius: 4px;
@@ -135,20 +135,20 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 padding: 10px 32px;
 }
-.button-for-buy:hover {
+.logo__button:hover {
 background: #188ce8;
 }
 .button:hover {
 background: #2196f3;
 }
-.button-for-buy:focus {
+.logo__button:focus {
 background: #2196f3;
 }
-.tell-for-buyer:focus {
+.menu__contact:focus {
 color: #2196f3;
 text-decoration: none;
 }
-.information-text {
+.item__p {
 margin-right: 30px;
 font-family: Roboto;
 font-style: normal;
@@ -157,7 +157,7 @@ font-size: 14px;
 line-height: 24px;
 color: #757575;
 }
-.information {
+.item__h3 {
 margin-right: 30px;
 font-family: Roboto;
 font-style: normal;
@@ -168,7 +168,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 10px;
 }
-.text-in-button-in-herov {
+.logo__text {
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -179,7 +179,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 margin-left: 452px;
 }
-.number-one {
+.header__link {
 font-family: Raleway ;
 font-style: normal;
 font-weight: bold;
@@ -197,6 +197,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 margin-bottom: 50px;
+margin-top: 50px;
 }
 .uor-comand {
 font-family: Roboto;
@@ -217,7 +218,7 @@ letter-spacing: 0.03em;
 color: #fff;
 margin-bottom: 20px;
 }
-.name-commando {
+.item-team__h3 {
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -226,7 +227,7 @@ line-height: 19px;
 margin-bottom: 10px;
 padding-top: 30px;
 }
-.information-comand {
+.item-team__p {
 
 font-family: Roboto;
 font-style: normal;
@@ -286,22 +287,22 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-.our-protgect {
+.our-activities {
 padding-top: 94px;
 margin:0 auto ;
 padding-bottom: 94px;
 }
-.our-protgect > ul > li {
+.our-activities > ul > li {
 margin-right: 30px;
 }
-.herov {
+.logo {
 text-align: center;
 padding: 200px 0;
 background: url(../images/photo-herov.jpg);
 
 }
 
-.text-in-button-in-herov {
+.logo__text {
 margin: 0 auto;
 max-width: 650px;
 color: #fff;
@@ -321,16 +322,18 @@ background: #2f303a;
 display: none;
 
 }
-.list-in-work{
+.our-activities__menu,
+.features-of-our-work__menu{
 display: flex;
 flex-direction: row;
 margin-top: 94px;
 
 }
-.list-in-work > li:not(:first-child){
+.our-activities__menu,
+.features-of-our-work__menu > li:not(:first-child){
 margin-left: 30px;
 }
-.work-in-protgect-uor-command{
+.team__heading{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -370,7 +373,7 @@ width:  max-content;
 margin-top: 94px;
 margin-bottom: 50px;
 }
-.link-for-navigation-in-footer-adres{
+.menu__link-in-footer-adres{
 text-decoration: none;
 color: #ffffff;
 margin-right: 50px;
@@ -382,7 +385,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 margin-bottom: 9px;
 }
-.link-for-navigation-in-footer{
+.menu__link-in-footer{
 text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 
@@ -396,28 +399,28 @@ letter-spacing: 0.03em;
 margin-bottom: 9px;
 
 }
-.link-for-navigation-in-footer:focus{
+.menu__link-in-footer:focus{
 color: #2196f3;
 }
-.link-for-navigation-in-footer:hover{
+.menu__link-in-footer:hover{
 color: #2196f3;
 
 }
 
-.button-in-herov{
+.logo__button-text{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
 }
-.card-bakgraynd{
+.team{
 padding-bottom: 94px;
 padding-top: 94px;
 background: #F5F4FA;;
 
 }
-.card{
+.item-team{
 text-align: center;
 border: 1px solid rgb(red, green, blue 00.06em) ;
 background: #FFFFFF;
@@ -507,66 +510,66 @@ display: flex;
 display: flex;
 padding-top: 20px;
 }
-.svg-humans-in-card{
+.item-team__menu{
 display: flex; 
 padding-bottom:30px ;
 }
-.svg-photo-svg-humans-in-card{
+.item-team-svg__svg-photo{
 height: 20px;
 width: 20px;
 margin: 12px 12px;
 
 }
-.list-svg-humans-in-card{
+.item-team-svg{
 margin-left:10px ;
 fill:#AFB1B8 ;
 border-radius: 360px;
 cursor: pointer;
 }
-.list-svg-humans-in-card:hover{
+.item-team-svg:hover{
 fill: #E3F2FE;
 background: #2196F3;
 }
 .margin{
 margin-left:32px;
 }
-.list-in-header{
+.menu__item-contact{
 display: inline;
 height: 16px;
 }
-.svg-in-list-in-header{
+.menu__svg-phone{
 width:10px ;
 height: 16px;
 align-items: center;
 }
-.svg-in-list-in-header-email{
+.menu__svg-email{
 width:16px ;
 height: 12px;
 
 }
-.list-in-work-div{
+.item{
 background: #F5F4FA;
 height:120px ;
 width:270px ;
 margin-bottom: 30px;
 border-radius: 4px;
 }
-.list-in-work-div-svg{
+.item__svg-photo{
 height:65px ;
 width: 70px;
 margin: 25px 102px ;
 }
-.webstudio{
+.header__manu{
 padding: 32px;
 
 }
 .webstudio-footor{
 padding-right: 70px;
 }
-.list-box-img{
+.item-our-activities{
 position: relative;
 }
-.div-for-box{
+.item-our-activities__text{
 position: absolute;
 bottom: 2px;
 color: rgb(255, 255, 255);
@@ -576,7 +579,7 @@ background: rgba(47, 48, 58, 0.8);
 
 
 }
-.div-for-box > p{
+.item-our-activities__text > p{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
