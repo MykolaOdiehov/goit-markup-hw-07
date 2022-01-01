@@ -1,0 +1,83 @@
+/*header*/
+.menu__svg-email{
+    width:16px ;
+    height: 12px;
+}
+.menu__svg-phone{
+    width:10px ;
+    height: 16px;
+    align-items: center;
+}
+.item__svg-photo{
+    height:65px ;
+    width: 70px;
+    margin: 25px 102px ;
+}
+.item-our-activities{
+    position: relative;
+}
+.item-team-svg__svg-photo{
+    height: 20px;
+    width: 20px;
+    margin: 12px 12px;
+}
+.item-team-svg{
+    margin-left:10px ;
+    fill:#AFB1B8 ;
+    border-radius: 360px;
+    cursor: pointer;
+}
+.item-team__menu{
+    display: flex; 
+    padding-bottom:30px ;
+}
+.our-clients__menu{
+    display: flex;
+    padding-bottom: 94px;
+}
+.item-our-clients__svg-photo{
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8; 
+    margin:16px 32px ;
+}
+.svg-in-footer-in-container:not(:first-child){margin-left: 10px;}
+.svg-photo-in-footer{
+height: 20px;
+width: 20px;
+margin: 12px 12px;
+fill: #fff;
+cursor: pointer;
+}
+.kerstic{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 6px 6px;
+    background: #FFFFFF;
+}
+.icon{
+    border: 2px solid #2a2a2a;
+    width: 16px;
+    height: 15px;
+    border-radius: 4px;
+ }
+ .input:checked+.icon{
+    width: 16px;
+    height: 15px;
+    border-color:#2196F3 ;
+    background-color: #2196F3;
+ }
+ .svg-photo-for-subcrib{
+    width: 24px;
+    height: 24px;
+    margin-left:10px;
+    margin-top: 0px;
+    display: inline;
+}
+.svg-photo-in-form{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 12px -430px;
+}

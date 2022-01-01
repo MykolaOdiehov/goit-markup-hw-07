@@ -184,7 +184,8 @@ font-family: Raleway ;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-padding-top: 25px;
+padding: 25px;
+
 
 
 }
@@ -333,6 +334,7 @@ margin-top: 94px;
 .features-of-our-work__menu > li:not(:first-child){
 margin-left: 30px;
 }
+.our-activities__heading,
 .team__heading{
 font-family: Roboto;
 font-style: normal;
@@ -342,7 +344,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 margin: 0 auto;
 margin-bottom: 50px;
-width: 300px;
+width: max-content;
 height: 42px
 }
 .buy-product_list{
@@ -425,12 +427,12 @@ text-align: center;
 border: 1px solid rgb(red, green, blue 00.06em) ;
 background: #FFFFFF;
 /* material shadow v1 */
-
+height: max-content;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
 }
-.svg-list{
+.item-our-clients{
 display: inline;
 width: 170px;
 height: 92px;
@@ -439,26 +441,27 @@ margin-left: auto;
 border-radius: 4px;
 
 }
-.svg{
+.our-clients__menu{
 display: flex;
 padding-bottom: 94px;
 }
-.svg-photo{
+.item-our-clients__svg-photo{
 width: 106px;
 height: 60px;
 fill: #afb1b8; 
 margin:16px 32px ;
 }
 
-.svg-list:hover .svg-photo{
+.item-our-clients:hover .item-our-clients__svg-photo{
 fill: #2196F3;
 cursor: pointer;
 
 }
-.svg-list:hover:hover{
+.item-our-clients:hover{
 border: 1px solid #2196F3;
+cursor: pointer;
 }
-.text-on-svg{
+.our-clients__text{
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
