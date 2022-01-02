@@ -322,22 +322,11 @@ button {
 }
 
 .backdrop {
-  background: #2196f3;
-  cursor: pointer;
-  border-radius: 4px;
-  color: #ffff;
+  
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
-}
-
-.backdrop:hover {
-  background: #188ce8;
-}
-
-.backdrop:focus {
-  background: #2196f3;
 }
 
 .button-for-subscrib {
