@@ -61,6 +61,7 @@ cursor: pointer;
     width: 16px;
     height: 15px;
     border-radius: 4px;
+    fill: #afb1b8;
  }
  .input:checked+.icon{
     width: 16px;
@@ -81,3 +82,9 @@ cursor: pointer;
     position: absolute;
     margin: 12px -430px;
 }
+.svg-photo-in-form-labal{
+    margin: auto auto;
+    height: 16px;
+    width: 15px;
+   
+ }

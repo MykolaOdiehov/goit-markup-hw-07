@@ -898,8 +898,7 @@ color: #757575;
     width: 16px;
     height: 15px;
  border-color:#2196F3 ;
-
-    background-color: #2196F3;
+ 
  }
  .svg-photo-in-form-labal{
     margin: auto auto;
@@ -911,5 +910,6 @@ color: #757575;
     appearance: none;
     position:absolute;
     border: none;
+    fill: #fff;
  }
  

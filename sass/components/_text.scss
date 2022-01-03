@@ -46,7 +46,7 @@ $color_text:#212121;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu__contact{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     
     margin-right: 30px;
@@ -67,7 +67,7 @@ $color_text:#212121;
     text-decoration: none;
 }
 .logo__text {
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -84,7 +84,7 @@ $color_text:#212121;
     margin-bottom: 30px;
 }
 .logo__button-text{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -95,7 +95,7 @@ $color_text:#212121;
 }
 .item__h3 {
     margin-right: 30px;
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -106,7 +106,7 @@ $color_text:#212121;
 }
 .item__p {
     margin-right: 30px;
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -116,7 +116,7 @@ $color_text:#212121;
 /*our-activities*/
 .our-activities__heading,
 .team__heading{
-font-family: Roboto;
+font-family: $font_family;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -136,7 +136,7 @@ height: 42px
     background: rgba(47, 48, 58, 0.8);
 }
 .item-our-activities__text > p{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -147,7 +147,7 @@ height: 42px
     margin-top: 27px ;
 }
 .item-team__h3 {
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -157,7 +157,7 @@ height: 42px
 }
 .item-team__p {
 
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -169,7 +169,7 @@ height: 42px
 }
 /*our-clients*/
 .our-clients__text{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -194,7 +194,7 @@ height: 42px
     text-decoration: none;
     color: #ffffff;
     margin-right: 50px;
-    font-family: Roboto;
+    font-family: $font_family;
     
     font-weight:400;
     font-size: 14px;
@@ -207,7 +207,7 @@ height: 42px
     color: rgba(255, 255, 255, 0.6);
     
     margin-right: 50px;
-    font-family: Roboto;
+    font-family: $font_family;
     
     font-weight:400;
     font-size: 14px;
@@ -223,7 +223,7 @@ height: 42px
     color: #2196f3;  
 }
 .box-in-footer-two > h3{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -234,7 +234,7 @@ height: 42px
     margin-top: 15px;
 }
 .text-for-input-in-footor{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -246,7 +246,7 @@ height: 42px
     padding-top: 15px;
 }
 .h3-in-modal{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -257,7 +257,7 @@ height: 42px
     margin-bottom: 12px;
 }
 .p-in-modal{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -267,7 +267,7 @@ height: 42px
     padding-bottom: 4px;
 }
 .p-in-moda{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -277,7 +277,7 @@ height: 42px
     padding-bottom:30px ;
 }
 .buttom-in-form > p{
-    font-family: Roboto;
+    font-family: $font_family;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -286,4 +286,37 @@ height: 42px
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+.modal-winter > p{
+    margin:63px 24px;
+    font-family: $font_family;
+    color: #EEEEEE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+.photo-buy {
+    font-family: $font_family;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.photo-buy-information {
+    font-family: $font_family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 24px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
 }
