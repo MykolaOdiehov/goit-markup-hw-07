@@ -1,53 +1,72 @@
 /*header*/
-.menu__svg-email{
+.menu{
+&__svg-email{
     width:16px ;
     height: 12px;
 }
-.menu__svg-phone{
+&__svg-phone{
     width:10px ;
     height: 16px;
     align-items: center;
 }
-.item__svg-photo{
+}
+.item{
+&__svg-photo{
     height:65px ;
     width: 70px;
     margin: 25px 102px ;
 }
-.item-our-activities{
+&-our-activities{
     position: relative;
 }
-.item-team-svg__svg-photo{
+&-team-svg__svg-photo{
     height: 20px;
     width: 20px;
     margin: 12px 12px;
 }
-.item-team-svg{
+&-team-svg{
     margin-left:10px ;
     fill:#AFB1B8 ;
     border-radius: 360px;
     cursor: pointer;
 }
-.item-team__menu{
+&-team__menu{
     display: flex; 
     padding-bottom:30px ;
 }
-.our-clients__menu{
-    display: flex;
-    padding-bottom: 94px;
-}
-.item-our-clients__svg-photo{
+&-our-clients__svg-photo{
     width: 106px;
     height: 60px;
     fill: #afb1b8; 
     margin:16px 32px ;
 }
-.svg-in-footer-in-container:not(:first-child){margin-left: 10px;}
-.svg-photo-in-footer{
-height: 20px;
-width: 20px;
-margin: 12px 12px;
-fill: #fff;
-cursor: pointer;
+}
+.our-clients__menu{
+    display: flex;
+    padding-bottom: 94px;
+}
+.svg{
+&-in-footer-in-container:not(:first-child){margin-left: 10px;}
+&-photo-in-footer{
+    height: 20px;
+    width: 20px;
+    margin: 12px 12px;
+    fill: #fff;
+    cursor: pointer;
+    }
+&-photo-for-subcrib{
+    width: 24px;
+    height: 24px;
+    margin-left:10px;
+    margin-top: 0px;
+    display: inline;
+}
+&-photo-in-form{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 12px -430px;
+}
 }
 .kerstic{
     height: 18px;
@@ -68,23 +87,4 @@ cursor: pointer;
     height: 15px;
     border-color:#2196F3 ;
     background-color: #2196F3;
- }
- .svg-photo-for-subcrib{
-    width: 24px;
-    height: 24px;
-    margin-left:10px;
-    margin-top: 0px;
-    display: inline;
-}
-.svg-photo-in-form{
-    height: 18px;
-    width: 18px;
-    position: absolute;
-    margin: 12px -430px;
-}
-.svg-photo-in-form-labal{
-    margin: auto auto;
-    height: 16px;
-    width: 15px;
-   
  }

@@ -1,26 +1,23 @@
-.menu__item-contact:hover{
+.menu{
+&__item-contact:hover{
     fill: #2196f3;
-}
-.menu__item-contact:hover > a{
-    color:#2196f3;
-}
-.menu__link:hover  {
+    & > a{
+        color:#2196f3;
+        }
+    }
+&__link:hover  {
     color: #2196f3;
     text-decoration: none;
-}
-.menu__link:hover::after{
-    transform: scaleX(1);
+    }
+&__link:hover::after{
+        transform: scaleX(1);
+    }
+&:hover {
+    background: #2196f3;
+}    
 }
 .logo__button:hover {
     background: #188ce8;
-}
-.button:hover {
-    background: #2196f3;
-}
-.button-fultor:hover {
-    background: #2196F3;
-    color: #ffff;
-    cursor: pointer;
 }
 .buy-product_list:hover{
     border-radius: 4px;
