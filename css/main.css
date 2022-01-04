@@ -74,7 +74,6 @@ button {
   letter-spacing: 0.03em;
   border-radius: 4px;
   margin-right: 10px;
-  display: inline-block;
   padding: 6px 22px;
   height: 40px;
   color: #212121;
@@ -196,15 +195,15 @@ body {
   font-style: normal;
 }
 
-header {
+.header {
   border: 1px solid #f1f1f1;
 }
 
-header__manu {
+.header__manu {
   padding: 32px;
 }
 
-header > div {
+.header > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,7 +213,7 @@ header > div {
           flex-direction: row;
 }
 
-header > div > ul {
+.header > div > ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,6 +225,7 @@ header > div > ul {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 90px;
+  margin-left: auto;
 }
 
 .menu__item-contact {
@@ -255,7 +255,7 @@ header > div > ul {
   display: flex;
 }
 
-.team__menu > li {
+.team__menu > ul > li {
   margin-left: 30px;
 }
 
@@ -625,6 +625,18 @@ header > div > ul {
 
 .menu-contacts {
   margin-left: auto;
+}
+
+.all-button-in-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 /*header*/

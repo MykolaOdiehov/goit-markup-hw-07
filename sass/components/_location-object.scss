@@ -2,8 +2,9 @@ body {
     font-family: Roboto, sans-serif;
     color: #212121;
     font-style: normal;
+    
 }
-header {
+.header {
     &__manu{
         padding: 32px;
     }
@@ -13,11 +14,12 @@ header {
             flex-direction: row;
             align-items: center;
             margin-left: 90px;
+            margin-left: auto;
         }
         display: flex;
         flex-direction: row;
     }
-border: 1px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
 }
 .menu__item-contact{
     display: inline ;
@@ -32,7 +34,7 @@ border: 1px solid #f1f1f1;
 
 .team{
     &__menu{
-        > li{
+        & > ul > li{
             margin-left: 30px;
         }
         display: flex;
@@ -99,7 +101,7 @@ padding-bottom: 94px;
     background: #2f303a;
 }
 .features-of-our-work__menu{ 
-&> li:not(:first-child){
+& > li:not(:first-child){
     margin-left: 30px;
 }
 display: flex;
@@ -319,4 +321,11 @@ cursor: pointer;
 }
 .menu-contacts{
     margin-left: auto;
+}
+.all-button-in-portfolio{
+    display: flex;
+    margin: 0 auto;
+    width:  max-content;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
