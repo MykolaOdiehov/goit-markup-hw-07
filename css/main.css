@@ -228,15 +228,11 @@ body {
   margin-left: auto;
 }
 
-.menu__item-contact {
-  display: inline;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 16px;
-}
-
+/* .menu__item-contact{
+    display: inline ;
+    flex-direction: column;
+    height: 16px;
+} */
 .container {
   width: 1200px;
   margin: 0 auto;
